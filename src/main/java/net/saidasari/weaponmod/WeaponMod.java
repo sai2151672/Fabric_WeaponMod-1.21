@@ -2,6 +2,7 @@ package net.saidasari.weaponmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.saidasari.weaponmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class WeaponMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
