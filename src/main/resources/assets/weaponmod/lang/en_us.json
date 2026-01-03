@@ -1,4 +1,12 @@
 {
   "item.weaponmod.chaos_crystal": "Chaos Crystal",
-  "item.weaponmod.orb_of_insanity": "Orb of Insanity"
+  "item.weaponmod.orb_of_insanity": "Orb of Insanity",
+
+
+  "block.weaponmod.chaos_ore": "Chaos Ore",
+  "block.weaponmod.chaos_deepslate_ore": "Chaos Deepslate Ore",
+  "block.weaponmod.chaos_crystal_block": "Chaos Crystal Block",
+
+  "itemgroup.weaponmod.chaos_items": "Chaos Items",
+  "itemgroup.weaponmod.chaos_blocks": "Chaos Blocks"
 }
