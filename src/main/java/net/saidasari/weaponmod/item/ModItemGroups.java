@@ -31,6 +31,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHAOS_ORE);
                         entries.add(ModBlocks.CHAOS_DEEPSLATE_ORE);
                         entries.add(ModBlocks.CHAOS_CRYSTAL_BLOCK);
+                        entries.add(ModBlocks.BLOCK_OF_INSANITY_ORBS);
 
                     })
 

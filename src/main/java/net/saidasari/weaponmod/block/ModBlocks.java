@@ -27,6 +27,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.SCULK)));
 
+    public static final Block BLOCK_OF_INSANITY_ORBS = registerBlock("block_of_insanity_orbs",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.SCULK)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -45,7 +49,7 @@ public class ModBlocks {
             entries.add(ModBlocks.CHAOS_ORE);
             entries.add(ModBlocks.CHAOS_CRYSTAL_BLOCK);
             entries.add(ModBlocks.CHAOS_DEEPSLATE_ORE);
-
+            entries.add(ModBlocks.BLOCK_OF_INSANITY_ORBS);
         });
     }
 
